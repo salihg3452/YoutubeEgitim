@@ -7,7 +7,7 @@ namespace YoutubeEgitim
         static void Main(string[] args)
         {
             CustomerManager customerManager = new CustomerManager(new Customer(),new MilitaryCreditManager());
-            customerManager.GiveCredit();
+            customerManager.GiveCredit(); 
 
             Console.ReadKey();
         }
